@@ -37,8 +37,8 @@ services:
     ports:
       - 5432:5432
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=pass
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=E1t0iSlAhPoWSj0qOmCxZJp5DsA15hvCXM5nZl7wrYSSaPS6iaYco6gPhJDCbUH0
       - POSTGRES_DB=evolution
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
